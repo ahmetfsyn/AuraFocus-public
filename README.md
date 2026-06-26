@@ -20,7 +20,6 @@
   <img alt="Expo SDK 55" src="https://img.shields.io/badge/Expo%20SDK-55-4630EB?logo=expo&style=flat-square">
   <img alt="React Native 0.83" src="https://img.shields.io/badge/React%20Native-0.83-61DAFB?logo=react&style=flat-square">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&style=flat-square">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-blue?style=flat-square">
 </p>
 
 <!-- TODO: add screenshot -->
