@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <!-- TODO: replace with actual app icon -->
-    <img alt="AuraFocus" src="https://ahmetfsyn.github.io/AuraFocus-Docs/app-icon.png" width="120" height="120">
+    <img alt="AuraFocus" src="https://ahmetfsyn.github.io/AuraFocus-public/app-icon.png" width="120" height="120">
   </picture>
 </p>
 
