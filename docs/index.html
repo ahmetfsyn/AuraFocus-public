@@ -12,6 +12,8 @@
         <meta property="og:description"
             content="A minimalist lo-fi deep-focus timer with immersive ambient environments.">
         <meta property="og:type" content="website">
+        <link rel="icon" type="image/png" href="app-icon.png">
+        <link rel="apple-touch-icon" href="app-icon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -32,7 +34,7 @@
     .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 16px 24px; background: rgba(5, 7, 13, 0.75); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(191, 216, 255, 0.08); }
     .nav .container { display: flex; justify-content: space-between; align-items: center; }
     .nav-logo { display: flex; align-items: center; gap: 10px; }
-    .nav-logo-icon { width: 32px; height: 32px; border-radius: 8px; background: linear-gradient(135deg, #7fd4ff, #5ec3ff); display: flex; align-items: center; justify-content: center; font-size: 18px; }
+    .nav-logo-icon { width: 32px; height: 32px; border-radius: 8px; }
     .nav-logo-text { font-size: 18px; font-weight: 700; color: #f2f7ff; letter-spacing: -0.3px; }
     .nav-links { display: flex; gap: 28px; align-items: center; }
     .nav-link { font-size: 14px; font-weight: 500; color: #c4d1e8; transition: color 0.2s; }
@@ -117,7 +119,8 @@
         <nav class="nav">
             <div class="container">
                 <div class="nav-logo">
-                    <div class="nav-logo-icon">⏱</div>
+                    <img src="app-icon.png" alt="AuraFocus"
+                        class="nav-logo-icon">
                     <span class="nav-logo-text">AuraFocus</span>
                 </div>
                 <div class="nav-links">
@@ -267,28 +270,18 @@
                 </p>
                 <div class="screenshots-grid">
                     <div class="phone-mockup reveal">
-                        <div class="phone-mockup-icon">⏱️</div>
-                        <div class="phone-mockup-label">Focus Screen</div>
-                        <div class="phone-mockup-note">Active timer with ambient
-                            video background</div>
+                        <img src="images/1.png" alt="Focus Screen"
+                            loading="lazy">
                     </div>
                     <div class="phone-mockup reveal">
-                        <div class="phone-mockup-icon">🎨</div>
-                        <div class="phone-mockup-label">Theme Selection</div>
-                        <div class="phone-mockup-note">Browse free &amp; premium
-                            lo-fi environments</div>
+                        <img src="images/2.png" alt="Theme Selection"
+                            loading="lazy">
                     </div>
                     <div class="phone-mockup reveal">
-                        <div class="phone-mockup-icon">📈</div>
-                        <div class="phone-mockup-label">Analytics</div>
-                        <div class="phone-mockup-note">Weekly focus patterns
-                            &amp; completion rates</div>
+                        <img src="images/3.png" alt="Analytics" loading="lazy">
                     </div>
                     <div class="phone-mockup reveal">
-                        <div class="phone-mockup-icon">⚙️</div>
-                        <div class="phone-mockup-label">Settings</div>
-                        <div class="phone-mockup-note">Tune auto-dim, duration
-                            &amp; recovery preferences</div>
+                        <img src="images/4.png" alt="Settings" loading="lazy">
                     </div>
                 </div>
             </div>
